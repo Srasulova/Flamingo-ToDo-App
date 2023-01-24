@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+![Flamingo](https://user-images.githubusercontent.com/109144680/214220228-c6e9d44f-09c1-4c0f-9b8d-7f615eb1c701.png)
+
+>>>>>>> 2c1c1ceb48d34a105c46ec079d1f1d54d99a9697
 # Flamingo-ToDo-App
 
 This repository contains one of my first solo projects - a basic ToDo app built with HTML, CSS, and JS.
