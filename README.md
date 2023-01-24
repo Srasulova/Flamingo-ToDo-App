@@ -1,4 +1,4 @@
-![Image of the app name]("C:\Users\Sabina\Desktop\repos\ToDo\Flamingo.png")
+![Image of the app name]("\ToDo\Flamingo.png?raw=true "ToDo app image")
 
 # Flamingo-ToDo-App
 
