@@ -1,3 +1,5 @@
+![Image of the app name]("C:\Users\Sabina\Desktop\repos\ToDo\Flamingo.png")
+
 # Flamingo-ToDo-App
 
 This repository contains one of my first solo projects - a basic ToDo app built with HTML, CSS, and JS.
