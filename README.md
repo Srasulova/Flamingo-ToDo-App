@@ -1,4 +1,4 @@
-![Image of the app name]("\ToDo\Flamingo.png?raw=true "ToDo app image")
+![Flamingo](https://user-images.githubusercontent.com/109144680/214220228-c6e9d44f-09c1-4c0f-9b8d-7f615eb1c701.png)
 
 # Flamingo-ToDo-App
 
