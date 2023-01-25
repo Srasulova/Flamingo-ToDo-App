@@ -1,32 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(255, 239, 239);
   font-family: "Comfortaa", cursive;
 }
 
-.header {
-  font-size: 36px;
-  font-weight: 600;
-  color: rgb(254, 75, 123);
-}
-
 .login-form {
-  width: 60%;
-  height: 500px;
+  width: 25%;
+  height: 600px;
   margin: 10% auto;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   border: 3px solid rgb(254, 75, 123);
   border-radius: 25px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8% 5%;
+  margin-bottom: 5%;
+  background: rgb(247, 38, 38);
+  background: linear-gradient(
+    145deg,
+    rgba(247, 38, 38, 1) 23%,
+    rgba(249, 92, 174, 1) 60%,
+    rgba(250, 135, 199, 1) 100%
+  );
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  color: white;
+}
+
+h2 {
+  font-weight: 600;
+  color: rgb(254, 75, 123);
 }
 
 input {
   font-family: inherit;
   margin: 10px;
   height: 30px;
-  width: auto;
+  width: 45%;
   border: 2px solid rgb(254, 75, 123);
   border-left: 25px solid rgb(254, 75, 123);
   border-radius: 30px;
@@ -37,7 +57,7 @@ input {
 
 input:focus {
   border: 3px solid rgba(247, 38, 38, 1);
-  border-left: 25px solid rgb(254, 75, 123);
+  border-left: 25px solid rgba(247, 38, 38, 1);
   outline: none;
 }
 
