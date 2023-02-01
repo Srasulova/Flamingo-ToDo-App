@@ -12,9 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <form action="" class="login-form">
+    <form action="" class="login-form" onclick="return false;">
+      <!--onclick="return false;-->
       <div class="header">
         <h1>Flamingo ToDo app</h1>
       </div>
@@ -27,13 +29,25 @@
         placeholder="Username"
       />
       <input
-        type="text"
+        type="password"
         name="password"
         required
         class="password input-element"
         placeholder="Password"
       />
-      <button class="btn-login">Login</button>
+      <button class="btn-login" type="submit">Login</button>
     </form>
+
+    <div class="modal-alert incorrect hidden-incorrect">
+      <p class="alert">Username/password is incorrect</p>
+      <button type="button" class="close-x">x</button>
+    </div>
+
+    <div class="modal-alert empty hidden-empty">
+      <p class="alert-empty">Username/password cannot be empty</p>
+      <button type="button" class="close">x</button>
+    </div>
+
+    <script src="login.js"></script>
   </body>
 </html>
