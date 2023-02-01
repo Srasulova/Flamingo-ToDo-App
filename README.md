@@ -15,6 +15,8 @@ Mark checked to a completed item.
 
 Remove an item.
 
+Login page.
+
 ## Doesn't support:
 
 Uncheck an item.
