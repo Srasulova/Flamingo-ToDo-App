@@ -17,11 +17,15 @@ Remove an item.
 
 Login page.
 
+Uncheck a completed item.
+
+Add notes to an item.
+
+Save notes for an item.
+
 ## Doesn't support:
 
-Uncheck an item.
-
-Edit/ change an item.
+Edit/change the name of an existing item.
 
 Move a checked item to the end of the list.
 
@@ -33,7 +37,7 @@ Date and time/ Reminders.
 
 ## To run:
 
-Basically, open the index.html file on your browser.
+Basically, open the login.html file on your browser.
 
 ## Feedbacks
 
