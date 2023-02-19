@@ -20,33 +20,62 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
     <title>TODO app</title>
   </head>
   <body>
-    <div class="header">
-      <h1>Flamingo</h1>
-      <h2>ToDo App</h2>
-    </div>
-
-    <form action="">
-      <label for="add-task" class="label">Add your daily tasks</label>
-      <div class="input-area">
-        <input
-          type="text"
-          name="add-task"
-          class="add-task"
-          value=""
-          placeholder="add your task"
-          required
-        />
-        <button class="btn-add">Add</button>
+    <header>
+      <div class="header">
+        <h1>Flamingo</h1>
+        <h2>ToDo App</h2>
       </div>
+    </header>
 
-      <h3 class="li-header">Daily tasks</h3>
+    <main>
+      <form action="">
+        <label for="add-task" class="label">Add your daily tasks</label>
+        <div class="input-area">
+          <input
+            type="text"
+            name="add-task"
+            class="add-task"
+            value=""
+            placeholder="add your task"
+            required
+          />
+          <button class="btn-add">Add</button>
+        </div>
 
-      <ul class="list-of-tasks"></ul>
-    </form>
+        <h3 class="li-header">Daily tasks</h3>
 
+        <ul class="list-of-tasks"></ul>
+      </form>
+
+      <div id="details-modal" class="details-modal details-hidden">
+        <p id="todoTitle" class="details-title"></p>
+        <textarea
+          name="details-text"
+          id="todoDetails"
+          class="details-text"
+          rows="100"
+          cols="30"
+          placeholder="Add notes..."
+          value=""
+        ></textarea>
+
+        <button id="btn-save" class="btn-save" type="button">Save</button>
+        <button type="button" class="close-details">x</button>
+      </div>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
